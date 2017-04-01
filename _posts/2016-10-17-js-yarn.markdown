@@ -6,7 +6,7 @@ date:       2016-10-17
 author:     "lgc"
 header-img: "img/post-bg-js-version.jpg"
 tags:
-    - CSS
+    - javascript
 ---
 # Yarn简介
 Yarn是Facebook公司最近新发布的一个新的包管理器，用于替代现有的 npm客户端或者其他兼容 npm仓库的包管理工具。Yarn保留了现有工作流的特性，优点是更快、更安全、更可靠。
