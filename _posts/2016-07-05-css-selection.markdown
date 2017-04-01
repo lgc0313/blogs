@@ -15,14 +15,14 @@ tags:
 - .class class选择器
 - \#id id选择器
 ## 实例
-```
-* { margin:0; padding:0; }
-p { font-size:2em; }
-.info { background:#ff0; }
-p.info { background:#ff0; }
-p.info.error { color:#900; font-weight:bold; }
-#info { background:#ff0; }
-p#info { background:#ff0; }
+```css
+    \* { margin:0; padding:0; }
+    p { font-size:2em; }
+    .info { background:#ff0; }
+    p.info { background:#ff0; }
+    p.info.error { color:#900; font-weight:bold; }
+    #info { background:#ff0; }
+    p#info { background:#ff0; }
 ```
 [在线演示](http://jsbin.com/redapub/edit?html,css,output)
 # 多元素选择器
@@ -31,7 +31,7 @@ p#info { background:#ff0; }
 - E>F 子元素选择器，匹配所有E元素的子元素F
 - E+F 毗邻元素选择器，匹配所有紧随E元素之后的同级元素F
 ## 实例
-```
+```css
     div p { color:#f00; }
     #nav li { display:inline; }
     #nav a { font-weight:bold; }
@@ -45,7 +45,7 @@ p#info { background:#ff0; }
 - E[att~=val] 匹配所有att属性具有多个空格分隔的值、其中一个值等于"val"的E元素
 - E[att|=val]  匹配所有att属性具有多个连字号分隔（hyphen-separated）的值、其中一个值以"val"开头的E元素，主要用于lang属性，比如"en"、"en-us"、"en-gb"等等
 ## 实例
-```
+```css
     p[title] { color:#f00; }
     div[class=error] { color:#f00; }
     td[headers~=col1] { color:#f00; }
@@ -58,7 +58,7 @@ p#info { background:#ff0; }
 - E:before    在E元素之前插入生成的内容
 - E:after在E元素之后插入生成的内容
 ## 实例
-```
+``` css
     p:first-line { font-weight:bold; color;#600; }
     .preamble:first-letter { font-size:1.5em; font-weight:bold; }
     .cbb:before { content:""; display:block; height:17px; width:18px; background:url(top.png) no-  repeat 0 0; margin:0 0 0 -18px; }
