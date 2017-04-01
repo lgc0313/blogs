@@ -12,25 +12,25 @@ tags:
 Yarn是Facebook公司最近新发布的一个新的包管理器，用于替代现有的 npm客户端或者其他兼容 npm仓库的包管理工具。Yarn保留了现有工作流的特性，优点是更快、更安全、更可靠。
 #Yarn安装
 
-##mac下安装
+## mac下安装
 ```javascript
 brew update
 brew install yarn
 ```
-##linux下安装
+## linux下安装
 ```javascript
 sudo apt-key adv --keyserver pgp.mit.edu --recv D101F7899D41F3C3echo "deb http://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update && sudo apt-get install yarn
 ```
-##windowns下安装
+## windowns下安装
 https://yarnpkg.com/en/docs/install 页面下载msi文件进行安装
 
-##npm下安装
+## pm下安装
 ```javascript
 npm install --global yarn
 ```
 
-#简单使用
+# 简单使用
 yarn CLI 代替了原有开发工作流中 npm CLI 的作用，用法可能是单纯的替代，也可能是一个新的、相似的命令：
 ##npm install → yarn
 不需要带参数，yarn命令会读取 package.json文件，然后从 npm 仓库中抓取软件包，并放置到 node_modules目录中。等价于运行 npm install。
