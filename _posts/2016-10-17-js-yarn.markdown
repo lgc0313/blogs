@@ -25,7 +25,7 @@ sudo apt-get update && sudo apt-get install yarn
 ## windowns下安装
 https://yarnpkg.com/en/docs/install 页面下载msi文件进行安装
 
-## pm下安装
+## npm下安装
 ```javascript
 npm install --global yarn
 ```
