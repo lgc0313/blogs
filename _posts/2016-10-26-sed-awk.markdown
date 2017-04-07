@@ -1,0 +1,30 @@
+---
+layout:     post
+title:      "sed和awk学习"
+subtitle:   ""
+date:       2016-10-26
+author:     "lgc"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - linux
+    - sed
+    - awk
+---
+
+# sed操作命令
+* -p 打印相关行
+* -a 新增行
+* -i 插入行
+* -c 替代行
+* -d 删除行
+* -g 全局
+* -s 替换  (sed 'sg/false/true' filename.txt 把false替换为true)
+
+# 定位一行
+* x(行号,数字)
+* /pattern/(正则)
+
+# 定位多行
+* x,y
+* /pattern/,/pattern/
+
